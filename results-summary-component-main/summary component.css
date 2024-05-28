@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: Hanken Grotesk;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    min-width: 100vh;
+    height: 800px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    height: 500px;
+    width: 750px;
+
+
+}
+.prvi-deo{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(252, 100%, 67%);
+    border-radius: 20px;
+    margin-right: 10px;
+
+}
+
+.drugi-deo{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    background-color: rgb(248, 247, 244);
+    border-radius: 20px;
+}
+
+span{
+    background-color: grey;
+    margin-bottom: 10px;
+}
+
+button{
+    margin-top: 40px;
+    border: none;
+    padding: 1rem 2rem ;
+    background-color: hsl(224, 30%, 27%);
+    color: #fff;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    line-height: 1;
+}
+
+.Result{
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    margin-top: 25px;
+    font-weight: 200;
+}
+
+.broj{  
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 80px;
+}
+
+
+.of100{
+    margin-top: -65px;
+    text-align: center;
+    color: #d4cece;
+    font-weight: 700;
+}
+.great{
+    text-align: center;
+    color: #fff;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.description{
+    color: #fff;
+    text-align: center;
+}
+
+.kec{
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    color: rgb(236, 6, 6);
+}
+.dvojka{
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    color: rgb(206, 206, 70);
+}
+.trojka{
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    color: rgb(120, 196, 6);
+}
+.cetvorka{
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    color: rgb(36, 0, 196);
+}
+.boja{
+    background-color: #fff;
+    color: black;
+    align-items: center;
+    font-weight: 700;
+
+}
+
+span{
+    background-color:#fff
+}
+
+@media (min-width: 600px) {
+    body{
+        min-height: 100vh;
+        display: grid;
+        align-items: center;
+    }
+}
+
+
+
+
+    .attribution {
+     font-size: 11px; 
+     text-align: center;
+     display: grid;
+     align-items: center;
+     }
+
+     .attribution a {
+         color: hsl(228, 45%, 44%); 
+        }
